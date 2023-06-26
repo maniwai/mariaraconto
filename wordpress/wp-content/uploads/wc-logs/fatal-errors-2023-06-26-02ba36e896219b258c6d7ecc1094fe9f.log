@@ -1,0 +1,102 @@
+2023-06-26T10:22:24+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php:260
+Stack trace:
+#0 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(308): archi_custom_frontend_style('')
+#1 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\header.php(22): wp_head()
+#5 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(783): require_once('D:\\__www\\mariar...')
+#6 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(718): load_template('D:\\__www\\mariar...', true, Array)
+#7 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\index.php(17): get_header()
+#9 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template-loader.php(106): include('D:\\__www\\mariar...')
+#10 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-blog-header.php(19): require_once('D:\\__www\\mariar...')
+#11 D:\__www\mariaraconto\mariaraconto-01\wordpress\index.php(17): require('D:\\__www\\mariar...')
+#12 {main}
+  thrown in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php on line 260
+
+2023-06-26T10:22:24+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php:260
+Stack trace:
+#0 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(308): archi_custom_frontend_style('')
+#1 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\header.php(22): wp_head()
+#5 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(783): require_once('D:\\__www\\mariar...')
+#6 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(718): load_template('D:\\__www\\mariar...', true, Array)
+#7 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\index.php(17): get_header()
+#9 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template-loader.php(106): include('D:\\__www\\mariar...')
+#10 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-blog-header.php(19): require_once('D:\\__www\\mariar...')
+#11 D:\__www\mariaraconto\mariaraconto-01\wordpress\index.php(17): require('D:\\__www\\mariar...')
+#12 {main}
+  thrown in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php on line 260
+
+2023-06-26T10:22:25+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php:260
+Stack trace:
+#0 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(308): archi_custom_frontend_style('')
+#1 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\header.php(22): wp_head()
+#5 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(783): require_once('D:\\__www\\mariar...')
+#6 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(718): load_template('D:\\__www\\mariar...', true, Array)
+#7 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\index.php(17): get_header()
+#9 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template-loader.php(106): include('D:\\__www\\mariar...')
+#10 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-blog-header.php(19): require_once('D:\\__www\\mariar...')
+#11 D:\__www\mariaraconto\mariaraconto-01\wordpress\index.php(17): require('D:\\__www\\mariar...')
+#12 {main}
+  thrown in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php on line 260
+
+2023-06-26T10:24:13+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php:260
+Stack trace:
+#0 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(308): archi_custom_frontend_style('')
+#1 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\header.php(22): wp_head()
+#5 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(783): require_once('D:\\__www\\mariar...')
+#6 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(718): load_template('D:\\__www\\mariar...', true, Array)
+#7 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\index.php(17): get_header()
+#9 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template-loader.php(106): include('D:\\__www\\mariar...')
+#10 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-blog-header.php(19): require_once('D:\\__www\\mariar...')
+#11 D:\__www\mariaraconto\mariaraconto-01\wordpress\index.php(17): require('D:\\__www\\mariar...')
+#12 {main}
+  thrown in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php on line 260
+
+2023-06-26T10:24:13+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php:260
+Stack trace:
+#0 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(308): archi_custom_frontend_style('')
+#1 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\header.php(22): wp_head()
+#5 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(783): require_once('D:\\__www\\mariar...')
+#6 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(718): load_template('D:\\__www\\mariar...', true, Array)
+#7 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\index.php(17): get_header()
+#9 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template-loader.php(106): include('D:\\__www\\mariar...')
+#10 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-blog-header.php(19): require_once('D:\\__www\\mariar...')
+#11 D:\__www\mariaraconto\mariaraconto-01\wordpress\index.php(17): require('D:\\__www\\mariar...')
+#12 {main}
+  thrown in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php on line 260
+
+2023-06-26T10:24:14+00:00 CRITICAL Uncaught TypeError: Cannot access offset of type string on string in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php:260
+Stack trace:
+#0 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(308): archi_custom_frontend_style('')
+#1 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(3049): do_action('wp_head')
+#4 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\header.php(22): wp_head()
+#5 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(783): require_once('D:\\__www\\mariar...')
+#6 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template.php(718): load_template('D:\\__www\\mariar...', true, Array)
+#7 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#8 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\index.php(17): get_header()
+#9 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-includes\template-loader.php(106): include('D:\\__www\\mariar...')
+#10 D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-blog-header.php(19): require_once('D:\\__www\\mariar...')
+#11 D:\__www\mariaraconto\mariaraconto-01\wordpress\index.php(17): require('D:\\__www\\mariar...')
+#12 {main}
+  thrown in D:\__www\mariaraconto\mariaraconto-01\wordpress\wp-content\themes\archi\framework\color.php on line 260
+
